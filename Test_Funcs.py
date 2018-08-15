@@ -12,14 +12,14 @@ import pandas as pd
 def add2(num):
     return num+2
 
+def times3(num):
+    return num*3 
+
 # Caps a value off if it exceeds Min and Max Values:
 def Bound(Min,Value,Max):
     a = max(Min,Value)
     b = min(a,Max)
     return b
-
-def times3(num):
-    return num*3 
 
 # Returns the analogous number between limits of 'A' and 'B'
 # that correlates with 'n's position between 'a' and 'b'.
